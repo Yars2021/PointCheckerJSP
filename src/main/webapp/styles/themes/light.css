@@ -1,0 +1,16 @@
+* {
+    color: #aaa;
+}
+
+.header {
+    border-color: #ccc;
+}
+
+.custom-author-card {
+    border-color: #ccc;
+}
+
+.custom-collapse-button {
+    background-color: white;
+    border-color: #ccc;
+}
