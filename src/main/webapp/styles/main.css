@@ -1,0 +1,47 @@
+* {
+    font-size: 20px;
+}
+
+.custom-header-container {
+    padding: 0.5rem 0.5rem 0.75rem;
+}
+
+.header {
+    margin-top: 0.75rem;
+    font-size: 20px;
+    font-family: "Roboto Light", serif;
+    border-top: 1px solid;
+}
+
+.collapse-show {
+    background-color: transparent;
+}
+
+.custom-author-card {
+    background-color: transparent;
+    padding: 1rem;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: 1px solid;
+}
+
+.custom-collapse-container {
+    margin-top: 0.5rem;
+    height: 0;
+}
+
+.custom-collapse-button {
+    position: relative;
+    top: -1.25rem;
+    left: 2rem;
+    width: 1.5rem;
+    height: 1.5rem;
+    border: 1px solid;
+    border-radius: 100%;
+}
+
+.main-container {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+}
