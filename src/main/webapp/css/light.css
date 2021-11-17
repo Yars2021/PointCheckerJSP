@@ -1,0 +1,87 @@
+body {
+    background-color: white !important;
+}
+
+.bg-theme {
+    background-color: #f2f2f2;
+}
+
+.bg-theme-lighter {
+    background-color: #f2f2f2;
+}
+
+.custom-brand {
+    color: black;
+}
+
+.header {
+    border-color: lightgreen;
+}
+
+.collapse-show {
+    background-color: transparent;
+}
+
+.custom-author-card {
+    color: gray;
+    border-color: lightgreen;
+}
+
+a:link {
+    color: limegreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color: limegreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: green;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: green;
+    text-decoration: none;
+}
+
+.custom-collapse-button {
+    border-color: lightgreen;
+    background-color: white;
+}
+
+#img-graph {
+    border-color: #eeeeee;
+}
+
+.results-table {
+    border-color: lightgreen;
+}
+
+.results-table-header {
+    background-color: lightgreen;
+    color: white;
+}
+
+.result-table-column {
+    border-color: lightgreen;
+}
+
+.bordered {
+    border-color: lightgrey;
+}
+
+div.coordinate-value {
+    border-color: lightgreen;
+}
+
+div.coordinate-label {
+    background-color: lightgreen;
+    color: white;
+}
+
+#stage {
+    border-color: black;
+}

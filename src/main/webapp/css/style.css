@@ -41,7 +41,52 @@
     border-radius: 100%;
 }
 
-.main-container {
-    padding-top: 0.5rem;
-    padding-bottom: 0.5rem;
+#img-graph {
+    border: solid 1px;
+}
+
+.results-table {
+    width: 98%;
+    border: 1px solid;
+}
+
+table.results-table td {
+    font-family: monospace;
+}
+
+.results-table-header {
+    text-align: center;
+}
+
+.result-table-column {
+    border: 1px solid;
+}
+
+.result-number {
+    text-align: right;
+}
+
+.result-bool {
+    text-align: center;
+}
+
+.result-date {
+    text-align: center;
+}
+
+.result-string {
+    text-align: left;
+}
+
+.valigned {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.bordered {
+    border: 1px dashed;
+}
+
+.with-padding {
+    margin-top: 16px;
 }

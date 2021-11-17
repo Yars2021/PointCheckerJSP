@@ -1,0 +1,43 @@
+canvas {
+    position: absolute;
+}
+
+#crosshair-layer {
+    z-index: 2;
+    cursor: none;
+}
+#graph-layer {
+    z-index: 1;
+}
+
+#coordinates {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    width: 8rem;
+    display: flex;
+}
+
+div.coordinate-value {
+    border-bottom: solid lightgreen 1px;
+    width: 3rem;
+    text-align: right;
+    display: flexbox;
+}
+
+div.coordinate-label {
+    display: flex;
+    background-color: lightgreen;
+    color: white;
+    font-weight: bold;
+}
+
+div.spacer {
+    width: 1rem;
+}
+
+#stage {
+    position: relative;
+    border: 2px solid black;
+}
+

@@ -3,4 +3,49 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+
+    <servlet>
+        <servlet-name>DispatcherServlet</servlet-name>
+        <servlet-class>ru.itmo.p3214.s312198.web.servlet.DispatcherServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>PointCheckerServlet</servlet-name>
+        <servlet-class>ru.itmo.p3214.s312198.web.servlet.PointCheckerServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ApplicationServlet</servlet-name>
+        <servlet-class>ru.itmo.p3214.s312198.web.servlet.AppServlet</servlet-class>
+    </servlet>
+
+    <servlet>
+        <servlet-name>ResultTableServlet</servlet-name>
+        <servlet-class>ru.itmo.p3214.s312198.web.servlet.ResultTableServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>DispatcherServlet</servlet-name>
+        <url-pattern>/disp</url-pattern>
+    </servlet-mapping>
+
+    <servlet-mapping>
+        <servlet-name>ApplicationServlet</servlet-name>
+        <url-pattern>/app</url-pattern>
+    </servlet-mapping>
+
+
+    <servlet-mapping>
+        <servlet-name>PointCheckerServlet</servlet-name>
+        <url-pattern>/check</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>ResultTableServlet</servlet-name>
+        <url-pattern>/results</url-pattern>
+    </servlet-mapping>
+
+    <welcome-file-list>
+        <welcome-file>disp</welcome-file>
+    </welcome-file-list>
+
 </web-app>

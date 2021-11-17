@@ -1,32 +1,30 @@
 package ru.itmo.p3214.s312198.web.model;
 
 public class PointCheckerResponse {
-    private Integer x;
+    private Float x;
     private Float y;
     private Integer r;
-    private Integer exitCode;
-    private String exitMsg;
+    private Boolean result;
+    private Integer errorCode;
+    private String errorMessage;
 
     public PointCheckerResponse() {
     }
 
-    public PointCheckerResponse(Integer x, Float y, Integer r, Integer exitCode, String exitMsg) {
+    public PointCheckerResponse(Float x, Float y, Integer r, Boolean result, Integer errorCode, String errorMessage) {
         this.x = x;
         this.y = y;
         this.r = r;
-        this.exitCode = exitCode;
-        this.exitMsg = exitMsg;
+        this.result = result;
+        this.errorCode = errorCode;
+        this.errorMessage = errorMessage;
     }
 
-    public PointCheckerResponse(PointCheckerRequest request) {
-        this(request.getX(), request.getY(), request.getR(), 0, "");
-    }
-
-    public Integer getX() {
+    public Float getX() {
         return x;
     }
 
-    public void setX(Integer x) {
+    public void setX(Float x) {
         this.x = x;
     }
 
@@ -46,19 +44,27 @@ public class PointCheckerResponse {
         this.r = r;
     }
 
-    public Integer getExitCode() {
-        return exitCode;
+    public Boolean getResult() {
+        return result;
     }
 
-    public void setExitCode(Integer exitCode) {
-        this.exitCode = exitCode;
+    public void setResult(Boolean result) {
+        this.result = result;
     }
 
-    public String getExitMsg() {
-        return exitMsg;
+    public Integer getErrorCode() {
+        return errorCode;
     }
 
-    public void setExitMsg(String exitMsg) {
-        this.exitMsg = exitMsg;
+    public void setErrorCode(Integer errorCode) {
+        this.errorCode = errorCode;
+    }
+
+    public String getErrorMessage() {
+        return errorMessage;
+    }
+
+    public void setErrorMessage(String errorMessage) {
+        this.errorMessage = errorMessage;
     }
 }

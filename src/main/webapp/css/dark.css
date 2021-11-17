@@ -1,0 +1,93 @@
+body {
+    background-color: #333 !important;
+}
+
+label, span {
+    color: lightgray;
+}
+
+.bg-theme {
+    background-color: #282828;
+}
+
+.bg-theme-lighter {
+    background-color: #777;
+}
+
+.custom-brand {
+    color: limegreen; !important;
+}
+
+.header {
+    border-color: darkgreen;
+}
+
+.collapse-show {
+    background-color: transparent;
+}
+
+.custom-author-card {
+    color: green;
+    border-color: darkgreen;
+}
+
+a:link {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:visited {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+a:hover {
+    color: limegreen;
+    text-decoration: none;
+}
+
+a:active {
+    text-decoration: limegreen;
+    text-decoration: none;
+}
+
+.custom-collapse-button {
+    border-color: green;
+    background-color: #333;
+}
+
+#img-graph {
+    border-color: #eeeeee;
+}
+
+.results-table {
+    border-color: darkgreen;
+}
+
+.results-table-header {
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+.result-table-column {
+    border-color: darkgreen;
+    color: lightgreen;
+}
+
+.bordered {
+    border-color: #555;
+}
+
+div.coordinate-value {
+    border-color: darkgreen;
+    color: lightgreen;
+}
+
+div.coordinate-label {
+    background-color: darkgreen;
+    color: lightgreen;
+}
+
+#stage {
+    border-color: black;
+}
